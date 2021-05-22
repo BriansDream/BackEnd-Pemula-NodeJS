@@ -1,0 +1,19 @@
+{
+  "name": "1runjsusingnodejs",
+  "version": "1.0.0",
+  "description": "Menjalankan Javascript dengan Node JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BriansDream/BackEnd-Pemula-NodeJS.git"
+  },
+  "author": "BriansDream",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BriansDream/BackEnd-Pemula-NodeJS/issues"
+  },
+  "homepage": "https://github.com/BriansDream/BackEnd-Pemula-NodeJS#readme"
+}
