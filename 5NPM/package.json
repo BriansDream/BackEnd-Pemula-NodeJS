@@ -1,0 +1,25 @@
+{
+  "name": "5npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BriansDream/BackEnd-Pemula-NodeJS.git"
+  },
+  "author": "BriansDream",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BriansDream/BackEnd-Pemula-NodeJS/issues"
+  },
+  "homepage": "https://github.com/BriansDream/BackEnd-Pemula-NodeJS#readme"
+}
