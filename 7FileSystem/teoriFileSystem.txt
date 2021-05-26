@@ -1,0 +1,17 @@
+Seluruh data dikomputer dikelola dan diakses melalui FILESYSTEM, 
+ketika menjalankan kode JS pada browser, sangat penting untuk melimitasi JS dalam mengakses FILESYSTEM
+
+Teknik ini dinamakan SANDBOXING, SANDBOXING melindungi kita dari program jahat serta tindakan pencurian yhang dapat merampas privasi penggunanya
+
+Pada Back-end, FILESYSTEM menjadi fitur penting karena dalam pengembangan backend akan sering sekali mengakses atau menulis sebuah berkas didalam komputer.
+
+Node JS menyediakan core modules FS yang dapat mempermudah dalam mengakses file system.
+Setiap method yang ada dimodule FS tersedia dalam dua versi 
+1. Asynchronouse (default) 
+2. Syschronous
+
+UNtuk mengakses berkas pada komputer kita dapat menggunakan METHOD FS.readFile()
+method ini menerima 3 argument, yakni
+1. Lokasi berkas
+2. Encoding
+3. Callback Function yang akan terpanggil bila berkas gagal / berhasil diakses
