@@ -1,0 +1,13 @@
+Readable Stream
+
+Fungsi Readfile baik versi asynchronous ataupun synchronous, bekerja dengan membaca berkas hingga selesai sebelum mengembalikan data.
+itu berarti bila anda menggunakannya untuk mengakses berkas yg besar, maka akan membutuhkan waktu lama dan memory yg besar untuk mendapatkan hasilnya, hal ini sungguh tidak efektif
+
+Solusinya adalah dengan menggunakan teknik stream,
+teknik ini tidak membaca berkas secara sekaligus, tapi dengan mengirim bagian demi bagian.
+
+Cara inilah yang digunakan oleh youtube agar video dapat ditampilkan seketika kepada pengguna.
+
+Teknik Stream merupakan salah satu konsep fundamental yang mendukung aplikasi Node JS Bekerja, teknik ini dapat menangani kasus baca tulis berkas, komunikasi jaringan atau beban kerja apapun agar dapat berjalan dengan lebih efisien.
+
+Untuk memahami bagaimana stream bekerja gunakan kasus sederhana yakni membaca teks pada berkas secara bagian per bagian.
