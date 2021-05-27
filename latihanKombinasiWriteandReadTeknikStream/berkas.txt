@@ -1,0 +1,2 @@
+Ini adalah baris pertama menulis berkas menggunakan teknik stream
+baris ke dua, teknik stream menggunakan core module FS 
